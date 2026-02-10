@@ -1,0 +1,33 @@
+================ SAMPLE OUTPUT ================
+
+Input Patient Data:
+Name: John Doe | Age: 45 | Diagnosis: Diabetes
+
+----- SHA-256 HASHING -----
+Salt:
+a3f91c8b2d4e9f0a7b1c6d8e5a9f3c2b
+
+Hashed Data:
+9f4c1a7d2e9b8c6f5a3d4e1b0c7f8a2e6d9b5c4f3e1a8d7c6b2f9e0a
+
+Verification Result:
+True
+
+----- RSA ENCRYPTION -----
+Encrypted Data:
+b'\x9a\x84\xf3\x1c...\x7e\x2a'
+
+Decrypted Data:
+Patient Diagnosis: Diabetes
+
+----- AES-256 ENCRYPTION -----
+Encrypted Data:
+gAAAAABlXkR3kF9u9F8xQqZk...
+
+Decrypted Data:
+Patient Medical History
+
+==============================================
+NOTE:
+• No real patient data is used
+• Output values change on every execution due to random salt and keys
